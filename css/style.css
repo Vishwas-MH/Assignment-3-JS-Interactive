@@ -7,11 +7,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+html{
+    font-size: 22px;
+}
 body{
-    background-color: #680747;
-    font-size: 14px;
-    color: black;
+    background-color: #41506b;
+    color: #263849;
     height: 100vh;
 }
 
@@ -27,14 +28,14 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #680747;
+    background-color: #41506b;
 }
 
 .child{
     border: solid 2px rgb(0, 0, 0);
-    border-radius: 2rem;
+    border-radius: 1rem;
     flex: 2;
-    background-color: #c3195d;
+    background-color: #35bcbf;
     font-size: 1rem;
     align-content: space-evenly;
 }
