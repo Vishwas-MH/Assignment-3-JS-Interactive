@@ -29,6 +29,7 @@ body{
     flex-direction: column;
     flex: 1;
     background-color: #41506b;
+    transition: all 0.5s ease-in-out;
 }
 
 .child{
@@ -38,6 +39,7 @@ body{
     background-color: #35bcbf;
     font-size: 1rem;
     align-content: space-evenly;
+    transition: all 0.5s ease-in-out;
 }
 
 .child p{
@@ -57,4 +59,5 @@ body{
     flex-grow: 10;
     transition: all 0.5s ease-in-out;
     font-size: 2rem;
+    background-color: turquoise;
 }

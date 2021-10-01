@@ -1,17 +1,17 @@
-let element = document.getElementsByClassName("child");
+let boxes = document.getElementsByClassName("child");
 
-for (let i = 0; i < element.length; i++) {
+for (let i = 0; i < boxes.length; i++) {
 
-    element[i].addEventListener("click", function () {
+    boxes[i].addEventListener("click", function () {
 
-        let activeOne = document.querySelector(".row_expand");
+        let clickedbox = document.querySelector(".row_expand");
 
-        if (activeOne) {
-            activeOne.classList.remove("row_expand");
-            activeOne.parentNode.classList.remove("column_expand");
+        if (clickedbox) {
+            clickedbox.classList.remove("row_expand");
+            clickedbox.parentNode.classList.remove("column_expand");
         }
 
-        element[i].classList.add("row_expand");
-        element[i].parentNode.classList.add("column_expand");
+        boxes[i].classList.add("row_expand");
+        boxes[i].parentNode.classList.add("column_expand");
     });
 }
